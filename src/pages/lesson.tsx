@@ -4,7 +4,9 @@ import curriculum from "../data/curriculum.json";
 
 export default function LessonPage() {
   const router = useRouter();
-  const { grade, subject } = router.query;
+  const grade = Array.isArray(router.query.grade) ? router.query.grade[0] : router.query.grade;
+  const subject = Array.isArray(router.query.subject) ? router.query.subject[0] : router.query.subject;
+
   const [lessonContent, setLessonContent] = useState("");
   const [quizQuestion, setQuizQuestion] = useState("");
   const [correctAnswer, setCorrectAnswer] = useState("");
