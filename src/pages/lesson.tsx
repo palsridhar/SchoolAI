@@ -2,6 +2,7 @@ import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import curriculum from "../../data/curriculum.json";
 import Quiz from "../components/Quiz";
+
 export default function LessonPage() {
   const router = useRouter();
   const { grade, subject } = router.query;
@@ -9,8 +10,13 @@ export default function LessonPage() {
   const [quiz, setQuiz] = useState(null);
 
   useEffect(() => {
-    if (grade && subject && curriculum.grades[grade] && curriculum.grades[grade][subject.charAt(0).toUpperCase() + subject.slice(1)]) {
-      const lessonData = curriculum.grades[grade][subject.charAt(0).toUpperCase() + subject.slice(1)];
+    const gradeKey = String(grade);
+    const subjectKey = String(subject).charAt(0).toUpperCase() + String(subject).slice(1);
+    if (
+      curriculum.grades[gradeKey] &&
+      curriculum.grades[gradeKey][subjectKey]
+    ) {
+      const lessonData = curriculum.grades[gradeKey][subjectKey];
       setLesson(lessonData.lesson);
       setQuiz(lessonData.quiz);
     }
