@@ -2,16 +2,757 @@
   "grades": {
     "Grade 1": {
       "Math": {
-        "lesson": "Welcome to Grade 1 Math! Let's learn numbers.",
-        "quiz": {
-          "question": "What comes after 2?",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": "3"
+        "Chapters": {
+          "Chapter 1: Counting Numbers": {
+            "lesson": "Learn to count from 1 to 10 using pictures and real-world objects. (Level 1)",
+            "quiz": {
+              "question": "How many apples are in the picture? \ud83c\udf4e\ud83c\udf4e\ud83c\udf4e",
+              "options": [
+                "2",
+                "3",
+                "4"
+              ],
+              "answer": "3"
+            }
+          },
+          "Chapter 2: Addition Level 1": {
+            "lesson": "Understand the concept of adding two small numbers. (Level 1)",
+            "quiz": {
+              "question": "What is 2 + 3?",
+              "options": [
+                "4",
+                "5",
+                "6"
+              ],
+              "answer": "5"
+            }
+          },
+          "Chapter 3: Subtraction Level 1": {
+            "lesson": "Learn how to subtract one number from another. (Level 1)",
+            "quiz": {
+              "question": "What is 5 - 2?",
+              "options": [
+                "2",
+                "3",
+                "4"
+              ],
+              "answer": "3"
+            }
+          },
+          "Chapter 4: Shapes and Patterns": {
+            "lesson": "Identify basic shapes and repeat patterns. (Level 1)",
+            "quiz": {
+              "question": "Which shape comes next: \ud83d\udd34\ud83d\udd35\ud83d\udd34?",
+              "options": [
+                "\ud83d\udd35",
+                "\ud83d\udd34",
+                "\ud83d\udfe2"
+              ],
+              "answer": "\ud83d\udd35"
+            }
+          },
+          "Chapter 5: Comparing Numbers": {
+            "lesson": "Learn about greater than, less than, and equal to. (Level 1)",
+            "quiz": {
+              "question": "Which is greater: 4 or 6?",
+              "options": [
+                "4",
+                "6",
+                "Equal"
+              ],
+              "answer": "6"
+            }
+          },
+          "Chapter 6: Number Line": {
+            "lesson": "Use a number line to add and subtract. (Level 1)",
+            "quiz": {
+              "question": "Where does 3 fall between 1 and 5?",
+              "options": [
+                "Before 2",
+                "After 4",
+                "Between 2 and 4"
+              ],
+              "answer": "Between 2 and 4"
+            }
+          },
+          "Chapter 7: Telling Time": {
+            "lesson": "Learn to read clocks showing full hours. (Level 1)",
+            "quiz": {
+              "question": "What time is it if the clock shows 3 o'clock?",
+              "options": [
+                "3:00",
+                "6:00",
+                "12:00"
+              ],
+              "answer": "3:00"
+            }
+          },
+          "Chapter 8: Money Level 1": {
+            "lesson": "Recognize coins and their values. (Level 1)",
+            "quiz": {
+              "question": "Which coin is worth more?",
+              "options": [
+                "Penny",
+                "Nickel",
+                "Dime"
+              ],
+              "answer": "Dime"
+            }
+          },
+          "Chapter 9: Measurement": {
+            "lesson": "Compare lengths, heights, and weights. (Level 1)",
+            "quiz": {
+              "question": "Which is longer: a pencil or a book?",
+              "options": [
+                "Pencil",
+                "Book",
+                "Same"
+              ],
+              "answer": "Book"
+            }
+          },
+          "Chapter 10: Word Problems": {
+            "lesson": "Solve simple math problems with stories. (Level 1)",
+            "quiz": {
+              "question": "Sally had 2 apples and got 3 more. How many now?",
+              "options": [
+                "4",
+                "5",
+                "6"
+              ],
+              "answer": "5"
+            }
+          }
+        }
+      }
+    },
+    "Grade 2": {
+      "Math": {
+        "Chapters": {
+          "Chapter 1: Counting Numbers": {
+            "lesson": "Learn to count from 1 to 10 using pictures and real-world objects. (Level 2)",
+            "quiz": {
+              "question": "How many apples are in the picture? \ud83c\udf4e\ud83c\udf4e\ud83c\udf4e",
+              "options": [
+                "2",
+                "3",
+                "4"
+              ],
+              "answer": "3"
+            }
+          },
+          "Chapter 2: Addition Level 2": {
+            "lesson": "Understand the concept of adding two small numbers. (Level 2)",
+            "quiz": {
+              "question": "What is 2 + 3?",
+              "options": [
+                "4",
+                "5",
+                "6"
+              ],
+              "answer": "5"
+            }
+          },
+          "Chapter 3: Subtraction Level 2": {
+            "lesson": "Learn how to subtract one number from another. (Level 2)",
+            "quiz": {
+              "question": "What is 5 - 2?",
+              "options": [
+                "2",
+                "3",
+                "4"
+              ],
+              "answer": "3"
+            }
+          },
+          "Chapter 4: Shapes and Patterns": {
+            "lesson": "Identify basic shapes and repeat patterns. (Level 2)",
+            "quiz": {
+              "question": "Which shape comes next: \ud83d\udd34\ud83d\udd35\ud83d\udd34?",
+              "options": [
+                "\ud83d\udd35",
+                "\ud83d\udd34",
+                "\ud83d\udfe2"
+              ],
+              "answer": "\ud83d\udd35"
+            }
+          },
+          "Chapter 5: Comparing Numbers": {
+            "lesson": "Learn about greater than, less than, and equal to. (Level 2)",
+            "quiz": {
+              "question": "Which is greater: 4 or 6?",
+              "options": [
+                "4",
+                "6",
+                "Equal"
+              ],
+              "answer": "6"
+            }
+          },
+          "Chapter 6: Number Line": {
+            "lesson": "Use a number line to add and subtract. (Level 2)",
+            "quiz": {
+              "question": "Where does 3 fall between 1 and 5?",
+              "options": [
+                "Before 2",
+                "After 4",
+                "Between 2 and 4"
+              ],
+              "answer": "Between 2 and 4"
+            }
+          },
+          "Chapter 7: Telling Time": {
+            "lesson": "Learn to read clocks showing full hours. (Level 2)",
+            "quiz": {
+              "question": "What time is it if the clock shows 3 o'clock?",
+              "options": [
+                "3:00",
+                "6:00",
+                "12:00"
+              ],
+              "answer": "3:00"
+            }
+          },
+          "Chapter 8: Money Level 2": {
+            "lesson": "Recognize coins and their values. (Level 2)",
+            "quiz": {
+              "question": "Which coin is worth more?",
+              "options": [
+                "Penny",
+                "Nickel",
+                "Dime"
+              ],
+              "answer": "Dime"
+            }
+          },
+          "Chapter 9: Measurement": {
+            "lesson": "Compare lengths, heights, and weights. (Level 2)",
+            "quiz": {
+              "question": "Which is longer: a pencil or a book?",
+              "options": [
+                "Pencil",
+                "Book",
+                "Same"
+              ],
+              "answer": "Book"
+            }
+          },
+          "Chapter 10: Word Problems": {
+            "lesson": "Solve simple math problems with stories. (Level 2)",
+            "quiz": {
+              "question": "Sally had 2 apples and got 3 more. How many now?",
+              "options": [
+                "4",
+                "5",
+                "6"
+              ],
+              "answer": "5"
+            }
+          }
+        }
+      }
+    },
+    "Grade 3": {
+      "Math": {
+        "Chapters": {
+          "Chapter 1: Counting Numbers": {
+            "lesson": "Learn to count from 1 to 10 using pictures and real-world objects. (Level 3)",
+            "quiz": {
+              "question": "How many apples are in the picture? \ud83c\udf4e\ud83c\udf4e\ud83c\udf4e",
+              "options": [
+                "2",
+                "3",
+                "4"
+              ],
+              "answer": "3"
+            }
+          },
+          "Chapter 2: Addition Level 3": {
+            "lesson": "Understand the concept of adding two small numbers. (Level 3)",
+            "quiz": {
+              "question": "What is 2 + 3?",
+              "options": [
+                "4",
+                "5",
+                "6"
+              ],
+              "answer": "5"
+            }
+          },
+          "Chapter 3: Subtraction Level 3": {
+            "lesson": "Learn how to subtract one number from another. (Level 3)",
+            "quiz": {
+              "question": "What is 5 - 2?",
+              "options": [
+                "2",
+                "3",
+                "4"
+              ],
+              "answer": "3"
+            }
+          },
+          "Chapter 4: Shapes and Patterns": {
+            "lesson": "Identify basic shapes and repeat patterns. (Level 3)",
+            "quiz": {
+              "question": "Which shape comes next: \ud83d\udd34\ud83d\udd35\ud83d\udd34?",
+              "options": [
+                "\ud83d\udd35",
+                "\ud83d\udd34",
+                "\ud83d\udfe2"
+              ],
+              "answer": "\ud83d\udd35"
+            }
+          },
+          "Chapter 5: Comparing Numbers": {
+            "lesson": "Learn about greater than, less than, and equal to. (Level 3)",
+            "quiz": {
+              "question": "Which is greater: 4 or 6?",
+              "options": [
+                "4",
+                "6",
+                "Equal"
+              ],
+              "answer": "6"
+            }
+          },
+          "Chapter 6: Number Line": {
+            "lesson": "Use a number line to add and subtract. (Level 3)",
+            "quiz": {
+              "question": "Where does 3 fall between 1 and 5?",
+              "options": [
+                "Before 2",
+                "After 4",
+                "Between 2 and 4"
+              ],
+              "answer": "Between 2 and 4"
+            }
+          },
+          "Chapter 7: Telling Time": {
+            "lesson": "Learn to read clocks showing full hours. (Level 3)",
+            "quiz": {
+              "question": "What time is it if the clock shows 3 o'clock?",
+              "options": [
+                "3:00",
+                "6:00",
+                "12:00"
+              ],
+              "answer": "3:00"
+            }
+          },
+          "Chapter 8: Money Level 3": {
+            "lesson": "Recognize coins and their values. (Level 3)",
+            "quiz": {
+              "question": "Which coin is worth more?",
+              "options": [
+                "Penny",
+                "Nickel",
+                "Dime"
+              ],
+              "answer": "Dime"
+            }
+          },
+          "Chapter 9: Measurement": {
+            "lesson": "Compare lengths, heights, and weights. (Level 3)",
+            "quiz": {
+              "question": "Which is longer: a pencil or a book?",
+              "options": [
+                "Pencil",
+                "Book",
+                "Same"
+              ],
+              "answer": "Book"
+            }
+          },
+          "Chapter 10: Word Problems": {
+            "lesson": "Solve simple math problems with stories. (Level 3)",
+            "quiz": {
+              "question": "Sally had 2 apples and got 3 more. How many now?",
+              "options": [
+                "4",
+                "5",
+                "6"
+              ],
+              "answer": "5"
+            }
+          }
+        }
+      }
+    },
+    "Grade 4": {
+      "Math": {
+        "Chapters": {
+          "Chapter 1: Counting Numbers": {
+            "lesson": "Learn to count from 1 to 10 using pictures and real-world objects. (Level 4)",
+            "quiz": {
+              "question": "How many apples are in the picture? \ud83c\udf4e\ud83c\udf4e\ud83c\udf4e",
+              "options": [
+                "2",
+                "3",
+                "4"
+              ],
+              "answer": "3"
+            }
+          },
+          "Chapter 2: Addition Level 4": {
+            "lesson": "Understand the concept of adding two small numbers. (Level 4)",
+            "quiz": {
+              "question": "What is 2 + 3?",
+              "options": [
+                "4",
+                "5",
+                "6"
+              ],
+              "answer": "5"
+            }
+          },
+          "Chapter 3: Subtraction Level 4": {
+            "lesson": "Learn how to subtract one number from another. (Level 4)",
+            "quiz": {
+              "question": "What is 5 - 2?",
+              "options": [
+                "2",
+                "3",
+                "4"
+              ],
+              "answer": "3"
+            }
+          },
+          "Chapter 4: Shapes and Patterns": {
+            "lesson": "Identify basic shapes and repeat patterns. (Level 4)",
+            "quiz": {
+              "question": "Which shape comes next: \ud83d\udd34\ud83d\udd35\ud83d\udd34?",
+              "options": [
+                "\ud83d\udd35",
+                "\ud83d\udd34",
+                "\ud83d\udfe2"
+              ],
+              "answer": "\ud83d\udd35"
+            }
+          },
+          "Chapter 5: Comparing Numbers": {
+            "lesson": "Learn about greater than, less than, and equal to. (Level 4)",
+            "quiz": {
+              "question": "Which is greater: 4 or 6?",
+              "options": [
+                "4",
+                "6",
+                "Equal"
+              ],
+              "answer": "6"
+            }
+          },
+          "Chapter 6: Number Line": {
+            "lesson": "Use a number line to add and subtract. (Level 4)",
+            "quiz": {
+              "question": "Where does 3 fall between 1 and 5?",
+              "options": [
+                "Before 2",
+                "After 4",
+                "Between 2 and 4"
+              ],
+              "answer": "Between 2 and 4"
+            }
+          },
+          "Chapter 7: Telling Time": {
+            "lesson": "Learn to read clocks showing full hours. (Level 4)",
+            "quiz": {
+              "question": "What time is it if the clock shows 3 o'clock?",
+              "options": [
+                "3:00",
+                "6:00",
+                "12:00"
+              ],
+              "answer": "3:00"
+            }
+          },
+          "Chapter 8: Money Level 4": {
+            "lesson": "Recognize coins and their values. (Level 4)",
+            "quiz": {
+              "question": "Which coin is worth more?",
+              "options": [
+                "Penny",
+                "Nickel",
+                "Dime"
+              ],
+              "answer": "Dime"
+            }
+          },
+          "Chapter 9: Measurement": {
+            "lesson": "Compare lengths, heights, and weights. (Level 4)",
+            "quiz": {
+              "question": "Which is longer: a pencil or a book?",
+              "options": [
+                "Pencil",
+                "Book",
+                "Same"
+              ],
+              "answer": "Book"
+            }
+          },
+          "Chapter 10: Word Problems": {
+            "lesson": "Solve simple math problems with stories. (Level 4)",
+            "quiz": {
+              "question": "Sally had 2 apples and got 3 more. How many now?",
+              "options": [
+                "4",
+                "5",
+                "6"
+              ],
+              "answer": "5"
+            }
+          }
+        }
+      }
+    },
+    "Grade 5": {
+      "Math": {
+        "Chapters": {
+          "Chapter 1: Counting Numbers": {
+            "lesson": "Learn to count from 1 to 10 using pictures and real-world objects. (Level 5)",
+            "quiz": {
+              "question": "How many apples are in the picture? \ud83c\udf4e\ud83c\udf4e\ud83c\udf4e",
+              "options": [
+                "2",
+                "3",
+                "4"
+              ],
+              "answer": "3"
+            }
+          },
+          "Chapter 2: Addition Level 5": {
+            "lesson": "Understand the concept of adding two small numbers. (Level 5)",
+            "quiz": {
+              "question": "What is 2 + 3?",
+              "options": [
+                "4",
+                "5",
+                "6"
+              ],
+              "answer": "5"
+            }
+          },
+          "Chapter 3: Subtraction Level 5": {
+            "lesson": "Learn how to subtract one number from another. (Level 5)",
+            "quiz": {
+              "question": "What is 5 - 2?",
+              "options": [
+                "2",
+                "3",
+                "4"
+              ],
+              "answer": "3"
+            }
+          },
+          "Chapter 4: Shapes and Patterns": {
+            "lesson": "Identify basic shapes and repeat patterns. (Level 5)",
+            "quiz": {
+              "question": "Which shape comes next: \ud83d\udd34\ud83d\udd35\ud83d\udd34?",
+              "options": [
+                "\ud83d\udd35",
+                "\ud83d\udd34",
+                "\ud83d\udfe2"
+              ],
+              "answer": "\ud83d\udd35"
+            }
+          },
+          "Chapter 5: Comparing Numbers": {
+            "lesson": "Learn about greater than, less than, and equal to. (Level 5)",
+            "quiz": {
+              "question": "Which is greater: 4 or 6?",
+              "options": [
+                "4",
+                "6",
+                "Equal"
+              ],
+              "answer": "6"
+            }
+          },
+          "Chapter 6: Number Line": {
+            "lesson": "Use a number line to add and subtract. (Level 5)",
+            "quiz": {
+              "question": "Where does 3 fall between 1 and 5?",
+              "options": [
+                "Before 2",
+                "After 4",
+                "Between 2 and 4"
+              ],
+              "answer": "Between 2 and 4"
+            }
+          },
+          "Chapter 7: Telling Time": {
+            "lesson": "Learn to read clocks showing full hours. (Level 5)",
+            "quiz": {
+              "question": "What time is it if the clock shows 3 o'clock?",
+              "options": [
+                "3:00",
+                "6:00",
+                "12:00"
+              ],
+              "answer": "3:00"
+            }
+          },
+          "Chapter 8: Money Level 5": {
+            "lesson": "Recognize coins and their values. (Level 5)",
+            "quiz": {
+              "question": "Which coin is worth more?",
+              "options": [
+                "Penny",
+                "Nickel",
+                "Dime"
+              ],
+              "answer": "Dime"
+            }
+          },
+          "Chapter 9: Measurement": {
+            "lesson": "Compare lengths, heights, and weights. (Level 5)",
+            "quiz": {
+              "question": "Which is longer: a pencil or a book?",
+              "options": [
+                "Pencil",
+                "Book",
+                "Same"
+              ],
+              "answer": "Book"
+            }
+          },
+          "Chapter 10: Word Problems": {
+            "lesson": "Solve simple math problems with stories. (Level 5)",
+            "quiz": {
+              "question": "Sally had 2 apples and got 3 more. How many now?",
+              "options": [
+                "4",
+                "5",
+                "6"
+              ],
+              "answer": "5"
+            }
+          }
+        }
+      }
+    },
+    "Grade 6": {
+      "Math": {
+        "Chapters": {
+          "Chapter 1: Counting Numbers": {
+            "lesson": "Learn to count from 1 to 10 using pictures and real-world objects. (Level 6)",
+            "quiz": {
+              "question": "How many apples are in the picture? \ud83c\udf4e\ud83c\udf4e\ud83c\udf4e",
+              "options": [
+                "2",
+                "3",
+                "4"
+              ],
+              "answer": "3"
+            }
+          },
+          "Chapter 2: Addition Level 6": {
+            "lesson": "Understand the concept of adding two small numbers. (Level 6)",
+            "quiz": {
+              "question": "What is 2 + 3?",
+              "options": [
+                "4",
+                "5",
+                "6"
+              ],
+              "answer": "5"
+            }
+          },
+          "Chapter 3: Subtraction Level 6": {
+            "lesson": "Learn how to subtract one number from another. (Level 6)",
+            "quiz": {
+              "question": "What is 5 - 2?",
+              "options": [
+                "2",
+                "3",
+                "4"
+              ],
+              "answer": "3"
+            }
+          },
+          "Chapter 4: Shapes and Patterns": {
+            "lesson": "Identify basic shapes and repeat patterns. (Level 6)",
+            "quiz": {
+              "question": "Which shape comes next: \ud83d\udd34\ud83d\udd35\ud83d\udd34?",
+              "options": [
+                "\ud83d\udd35",
+                "\ud83d\udd34",
+                "\ud83d\udfe2"
+              ],
+              "answer": "\ud83d\udd35"
+            }
+          },
+          "Chapter 5: Comparing Numbers": {
+            "lesson": "Learn about greater than, less than, and equal to. (Level 6)",
+            "quiz": {
+              "question": "Which is greater: 4 or 6?",
+              "options": [
+                "4",
+                "6",
+                "Equal"
+              ],
+              "answer": "6"
+            }
+          },
+          "Chapter 6: Number Line": {
+            "lesson": "Use a number line to add and subtract. (Level 6)",
+            "quiz": {
+              "question": "Where does 3 fall between 1 and 5?",
+              "options": [
+                "Before 2",
+                "After 4",
+                "Between 2 and 4"
+              ],
+              "answer": "Between 2 and 4"
+            }
+          },
+          "Chapter 7: Telling Time": {
+            "lesson": "Learn to read clocks showing full hours. (Level 6)",
+            "quiz": {
+              "question": "What time is it if the clock shows 3 o'clock?",
+              "options": [
+                "3:00",
+                "6:00",
+                "12:00"
+              ],
+              "answer": "3:00"
+            }
+          },
+          "Chapter 8: Money Level 6": {
+            "lesson": "Recognize coins and their values. (Level 6)",
+            "quiz": {
+              "question": "Which coin is worth more?",
+              "options": [
+                "Penny",
+                "Nickel",
+                "Dime"
+              ],
+              "answer": "Dime"
+            }
+          },
+          "Chapter 9: Measurement": {
+            "lesson": "Compare lengths, heights, and weights. (Level 6)",
+            "quiz": {
+              "question": "Which is longer: a pencil or a book?",
+              "options": [
+                "Pencil",
+                "Book",
+                "Same"
+              ],
+              "answer": "Book"
+            }
+          },
+          "Chapter 10: Word Problems": {
+            "lesson": "Solve simple math problems with stories. (Level 6)",
+            "quiz": {
+              "question": "Sally had 2 apples and got 3 more. How many now?",
+              "options": [
+                "4",
+                "5",
+                "6"
+              ],
+              "answer": "5"
+            }
+          }
         }
       }
     }
